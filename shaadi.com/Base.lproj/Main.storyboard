@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="shaadi_com" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" image="ba821fa5d7b57422cf96cb19d5fdafcb" translatesAutoresizingMaskIntoConstraints="NO" id="gTu-7o-HvT">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="White-Shaadi-Logo-1" translatesAutoresizingMaskIntoConstraints="NO" id="eh8-n0-dQV">
+                                <rect key="frame" x="81" y="59" width="231" height="104"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="104" id="kue-wr-d8N"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eh8-n0-dQV" secondAttribute="trailing" constant="81" id="LYE-wc-0sm"/>
+                            <constraint firstItem="eh8-n0-dQV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="81" id="P2c-vm-NRc"/>
+                            <constraint firstItem="eh8-n0-dQV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="e2V-FG-pIR"/>
+                            <constraint firstItem="gTu-7o-HvT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ghc-BR-y23"/>
+                            <constraint firstAttribute="bottom" secondItem="gTu-7o-HvT" secondAttribute="bottom" id="mcZ-LY-oRI"/>
+                            <constraint firstItem="gTu-7o-HvT" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="tqO-TX-xrl"/>
+                            <constraint firstItem="gTu-7o-HvT" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="uQW-33-dRd"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="11.450381679389313" y="-34.507042253521128"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="White-Shaadi-Logo-1" width="303" height="119"/>
+        <image name="ba821fa5d7b57422cf96cb19d5fdafcb" width="564" height="1002"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
