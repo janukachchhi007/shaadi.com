@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA97B6D22A286ED400ADAA3E /* mobilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA97B6D12A286ED400ADAA3E /* mobilePage.swift */; };
+		AA97B6D42A28701E00ADAA3E /* emailpagepop.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA97B6D32A28701E00ADAA3E /* emailpagepop.swift */; };
+		AA97B6D62A28725600ADAA3E /* profileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA97B6D52A28725600ADAA3E /* profileTableViewCell.swift */; };
 		AAC5402D2A27220400604725 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC5402C2A27220400604725 /* AppDelegate.swift */; };
 		AAC5402F2A27220400604725 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC5402E2A27220400604725 /* SceneDelegate.swift */; };
 		AAC540312A27220400604725 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC540302A27220400604725 /* ViewController.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA97B6D12A286ED400ADAA3E /* mobilePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobilePage.swift; sourceTree = "<group>"; };
+		AA97B6D32A28701E00ADAA3E /* emailpagepop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emailpagepop.swift; sourceTree = "<group>"; };
+		AA97B6D52A28725600ADAA3E /* profileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileTableViewCell.swift; sourceTree = "<group>"; };
 		AAC540292A27220400604725 /* shaadi.com.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shaadi.com.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAC5402C2A27220400604725 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAC5402E2A27220400604725 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +46,9 @@
 		AAC540202A27220400604725 = {
 			isa = PBXGroup;
 			children = (
+				AA97B6D52A28725600ADAA3E /* profileTableViewCell.swift */,
+				AA97B6D32A28701E00ADAA3E /* emailpagepop.swift */,
+				AA97B6D12A286ED400ADAA3E /* mobilePage.swift */,
 				AAC5402B2A27220400604725 /* shaadi.com */,
 				AAC5402A2A27220400604725 /* Products */,
 			);
@@ -139,7 +148,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAC540312A27220400604725 /* ViewController.swift in Sources */,
+				AA97B6D62A28725600ADAA3E /* profileTableViewCell.swift in Sources */,
 				AAC5402D2A27220400604725 /* AppDelegate.swift in Sources */,
+				AA97B6D42A28701E00ADAA3E /* emailpagepop.swift in Sources */,
+				AA97B6D22A286ED400ADAA3E /* mobilePage.swift in Sources */,
 				AAC5402F2A27220400604725 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
