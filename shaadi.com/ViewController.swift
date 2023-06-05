@@ -8,8 +8,8 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-
+    
+    
     @IBOutlet weak var loginButton: UIButton!
     @IBOutlet weak var googleButton: UIButton!
     @IBOutlet weak var mobileButton: UIButton!
@@ -29,10 +29,10 @@ class ViewController: UIViewController {
         loginButton.layer.masksToBounds = true
         
     }
-
+    
     @IBAction func emailButtonAction(_ sender: UIButton) {
-      
-naviget()
+        
+        naviget()
     }
     
     func naviget()
@@ -41,5 +41,21 @@ naviget()
         n.mynev = self.navigationController
         present(n, animated: false)
     }
+    
+    @IBAction func googleButtonAction(_ sender: Any) {
+        
+        let n = storyboard? .instantiateViewController(withIdentifier: "mobilePage") as! mobilePage
+        n.mynev = self.navigationController
+        present(n, animated: false)
+       
+    }
+    
+    
+    @IBAction func loginButtonAction(_ sender: Any) {
+        let n = storyboard?.instantiateViewController(identifier: "loginPage")as! loginPage
+        navigationController?.pushViewController(n, animated: true)
+
+    }
+    
 }
 
