@@ -42,6 +42,10 @@ class ViewController: UIViewController {
         present(n, animated: false)
     }
     
+    @IBAction func mobileButtonaction(_ sender: Any)
+    {
+        naviget()
+    }
     @IBAction func googleButtonAction(_ sender: Any) {
         
         let n = storyboard? .instantiateViewController(withIdentifier: "mobilePage") as! mobilePage

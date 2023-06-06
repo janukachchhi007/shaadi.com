@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AA59ACD52A2DA27C00BE4D32 /* genderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA59ACD42A2DA27C00BE4D32 /* genderCollectionViewCell.swift */; };
+		AA5707BD2A2EF3070074F081 /* genderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5707BC2A2EF3070074F081 /* genderTableViewCell.swift */; };
+		AA5707C22A2EFA9B0074F081 /* DPOTPView in Frameworks */ = {isa = PBXBuildFile; productRef = AA5707C12A2EFA9B0074F081 /* DPOTPView */; };
+		AA5707C42A2EFC320074F081 /* profilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5707C32A2EFC320074F081 /* profilePage.swift */; };
+		AA5707C62A2F0BB00074F081 /* religionPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5707C52A2F0BB00074F081 /* religionPage.swift */; };
 		AA59ACD72A2DA5B400BE4D32 /* googlePageTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA59ACD62A2DA5B400BE4D32 /* googlePageTableView.swift */; };
 		AA59ACD92A2DB32000BE4D32 /* loginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA59ACD82A2DB32000BE4D32 /* loginPage.swift */; };
 		AA97B6D22A286ED400ADAA3E /* mobilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA97B6D12A286ED400ADAA3E /* mobilePage.swift */; };
@@ -21,7 +24,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AA59ACD42A2DA27C00BE4D32 /* genderCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = genderCollectionViewCell.swift; sourceTree = "<group>"; };
+		AA5707BC2A2EF3070074F081 /* genderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = genderTableViewCell.swift; sourceTree = "<group>"; };
+		AA5707C32A2EFC320074F081 /* profilePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profilePage.swift; sourceTree = "<group>"; };
+		AA5707C52A2F0BB00074F081 /* religionPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = religionPage.swift; sourceTree = "<group>"; };
 		AA59ACD62A2DA5B400BE4D32 /* googlePageTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = googlePageTableView.swift; sourceTree = "<group>"; };
 		AA59ACD82A2DB32000BE4D32 /* loginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginPage.swift; sourceTree = "<group>"; };
 		AA97B6D12A286ED400ADAA3E /* mobilePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobilePage.swift; sourceTree = "<group>"; };
@@ -41,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA5707C22A2EFA9B0074F081 /* DPOTPView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +56,7 @@
 		AAC540202A27220400604725 = {
 			isa = PBXGroup;
 			children = (
+				AA5707C52A2F0BB00074F081 /* religionPage.swift */,
 				AA59ACD82A2DB32000BE4D32 /* loginPage.swift */,
 				AA59ACD62A2DA5B400BE4D32 /* googlePageTableView.swift */,
 				AA97B6D32A28701E00ADAA3E /* emailpagepop.swift */,
@@ -74,7 +81,8 @@
 				AAC5402E2A27220400604725 /* SceneDelegate.swift */,
 				AAC540302A27220400604725 /* ViewController.swift */,
 				AAC540322A27220400604725 /* Main.storyboard */,
-				AA59ACD42A2DA27C00BE4D32 /* genderCollectionViewCell.swift */,
+				AA5707C32A2EFC320074F081 /* profilePage.swift */,
+				AA5707BC2A2EF3070074F081 /* genderTableViewCell.swift */,
 				AAC540352A27220500604725 /* Assets.xcassets */,
 				AAC540372A27220500604725 /* LaunchScreen.storyboard */,
 				AAC5403A2A27220500604725 /* Info.plist */,
@@ -98,6 +106,9 @@
 			dependencies = (
 			);
 			name = shaadi.com;
+			packageProductDependencies = (
+				AA5707C12A2EFA9B0074F081 /* DPOTPView */,
+			);
 			productName = shaadi.com;
 			productReference = AAC540292A27220400604725 /* shaadi.com.app */;
 			productType = "com.apple.product-type.application";
@@ -126,6 +137,9 @@
 				Base,
 			);
 			mainGroup = AAC540202A27220400604725;
+			packageReferences = (
+				AA5707C02A2EFA9B0074F081 /* XCRemoteSwiftPackageReference "DPOTPView" */,
+			);
 			productRefGroup = AAC5402A2A27220400604725 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -153,13 +167,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA5707BD2A2EF3070074F081 /* genderTableViewCell.swift in Sources */,
 				AA59ACD92A2DB32000BE4D32 /* loginPage.swift in Sources */,
 				AAC540312A27220400604725 /* ViewController.swift in Sources */,
 				AA59ACD72A2DA5B400BE4D32 /* googlePageTableView.swift in Sources */,
 				AAC5402D2A27220400604725 /* AppDelegate.swift in Sources */,
+				AA5707C62A2F0BB00074F081 /* religionPage.swift in Sources */,
 				AA97B6D42A28701E00ADAA3E /* emailpagepop.swift in Sources */,
 				AA97B6D22A286ED400ADAA3E /* mobilePage.swift in Sources */,
-				AA59ACD52A2DA27C00BE4D32 /* genderCollectionViewCell.swift in Sources */,
+				AA5707C42A2EFC320074F081 /* profilePage.swift in Sources */,
 				AAC5402F2A27220400604725 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -376,6 +392,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AA5707C02A2EFA9B0074F081 /* XCRemoteSwiftPackageReference "DPOTPView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Datt1994/DPOTPView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AA5707C12A2EFA9B0074F081 /* DPOTPView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA5707C02A2EFA9B0074F081 /* XCRemoteSwiftPackageReference "DPOTPView" */;
+			productName = DPOTPView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AAC540212A27220400604725 /* Project object */;
 }
