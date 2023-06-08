@@ -14,7 +14,6 @@ class emailpagepop: UIViewController,UITableViewDelegate,UITableViewDataSource{
     
     @IBOutlet weak var profileImg: UIImageView!
     @IBOutlet weak var popview: UIView!
-    
     @IBOutlet weak var continueBUtton: UIButton!
     var lebelName = ["My Self","My son","My daughter","My Brother","My sister","My Friend","My relative"]
     var selectcell = -1

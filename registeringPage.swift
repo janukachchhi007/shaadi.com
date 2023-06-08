@@ -19,7 +19,7 @@ class registeringPage: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        continueButton.layer.cornerRadius = 25
+        continueButton.layer.cornerRadius = 18
         continueButton.layer.masksToBounds = true
     }
     
@@ -56,7 +56,8 @@ class registeringPage: UIViewController {
         }
         else
         {
-            
+            let naviget = storyboard?.instantiateViewController(withIdentifier: "createProfilePage") as! createProfilePage
+                navigationController?.pushViewController(naviget, animated: true)
         }
     
     }

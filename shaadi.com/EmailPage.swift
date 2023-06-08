@@ -22,7 +22,7 @@ class EmailPage: UIViewController {
     }
    
     @IBAction func submitButtonAction(_ sender: Any) {
-        if emailTextFild.text == "" && mobileTextFild.text == ""
+        if emailTextFild.text == "" && mobileTextFild.text?.count ?? 0 != 10
         {
             showalert(tital: "Enter Your Email Id & Mobile Number")
         }
@@ -30,7 +30,7 @@ class EmailPage: UIViewController {
         {
             showalert(tital: "Enter Your Email Id")
         }
-        else if mobileTextFild.text == ""
+        else if mobileTextFild.text?.count ?? 0 != 10
         {
             showalert(tital: "Enter Your Mobile Number ")
         }

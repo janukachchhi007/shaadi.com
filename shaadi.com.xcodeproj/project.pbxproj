@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA1764D12A31C8EC007F40E7 /* CollectionViewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1764D02A31C8EC007F40E7 /* CollectionViewCell1.swift */; };
 		AA5707BD2A2EF3070074F081 /* genderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5707BC2A2EF3070074F081 /* genderTableViewCell.swift */; };
 		AA5707C22A2EFA9B0074F081 /* DPOTPView in Frameworks */ = {isa = PBXBuildFile; productRef = AA5707C12A2EFA9B0074F081 /* DPOTPView */; };
 		AA5707C42A2EFC320074F081 /* profilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5707C32A2EFC320074F081 /* profilePage.swift */; };
@@ -17,6 +18,11 @@
 		AA97B6D42A28701E00ADAA3E /* emailpagepop.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA97B6D32A28701E00ADAA3E /* emailpagepop.swift */; };
 		AAA51DC52A304C0D00A7B672 /* EmailPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA51DC42A304C0D00A7B672 /* EmailPage.swift */; };
 		AAA51DC72A30593700A7B672 /* registeringPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA51DC62A30593700A7B672 /* registeringPage.swift */; };
+		AAA5A9DB2A319E0900081510 /* createProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA5A9DA2A319E0900081510 /* createProfilePage.swift */; };
+		AAA5A9DD2A31A66500081510 /* galleryPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA5A9DC2A31A66500081510 /* galleryPage.swift */; };
+		AAA5A9DF2A31AD8700081510 /* familyDetailPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA5A9DE2A31AD8700081510 /* familyDetailPage.swift */; };
+		AAA5A9E12A31B3AA00081510 /* tabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA5A9E02A31B3AA00081510 /* tabBar.swift */; };
+		AAA5A9E32A31C0D600081510 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA5A9E22A31C0D600081510 /* HomePage.swift */; };
 		AAC5402D2A27220400604725 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC5402C2A27220400604725 /* AppDelegate.swift */; };
 		AAC5402F2A27220400604725 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC5402E2A27220400604725 /* SceneDelegate.swift */; };
 		AAC540312A27220400604725 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC540302A27220400604725 /* ViewController.swift */; };
@@ -26,6 +32,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA1764D02A31C8EC007F40E7 /* CollectionViewCell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell1.swift; sourceTree = "<group>"; };
 		AA5707BC2A2EF3070074F081 /* genderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = genderTableViewCell.swift; sourceTree = "<group>"; };
 		AA5707C32A2EFC320074F081 /* profilePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profilePage.swift; sourceTree = "<group>"; };
 		AA5707C52A2F0BB00074F081 /* religionPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = religionPage.swift; sourceTree = "<group>"; };
@@ -35,6 +42,11 @@
 		AA97B6D32A28701E00ADAA3E /* emailpagepop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emailpagepop.swift; sourceTree = "<group>"; };
 		AAA51DC42A304C0D00A7B672 /* EmailPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailPage.swift; sourceTree = "<group>"; };
 		AAA51DC62A30593700A7B672 /* registeringPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registeringPage.swift; sourceTree = "<group>"; };
+		AAA5A9DA2A319E0900081510 /* createProfilePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = createProfilePage.swift; sourceTree = "<group>"; };
+		AAA5A9DC2A31A66500081510 /* galleryPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = galleryPage.swift; sourceTree = "<group>"; };
+		AAA5A9DE2A31AD8700081510 /* familyDetailPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = familyDetailPage.swift; sourceTree = "<group>"; };
+		AAA5A9E02A31B3AA00081510 /* tabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabBar.swift; sourceTree = "<group>"; };
+		AAA5A9E22A31C0D600081510 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 		AAC540292A27220400604725 /* shaadi.com.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shaadi.com.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAC5402C2A27220400604725 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAC5402E2A27220400604725 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +72,7 @@
 		AAC540202A27220400604725 = {
 			isa = PBXGroup;
 			children = (
+				AAA5A9DE2A31AD8700081510 /* familyDetailPage.swift */,
 				AAA51DC62A30593700A7B672 /* registeringPage.swift */,
 				AA5707C52A2F0BB00074F081 /* religionPage.swift */,
 				AA59ACD82A2DB32000BE4D32 /* loginPage.swift */,
@@ -86,6 +99,11 @@
 				AAC5402E2A27220400604725 /* SceneDelegate.swift */,
 				AAC540302A27220400604725 /* ViewController.swift */,
 				AAC540322A27220400604725 /* Main.storyboard */,
+				AA1764D02A31C8EC007F40E7 /* CollectionViewCell1.swift */,
+				AAA5A9E22A31C0D600081510 /* HomePage.swift */,
+				AAA5A9E02A31B3AA00081510 /* tabBar.swift */,
+				AAA5A9DC2A31A66500081510 /* galleryPage.swift */,
+				AAA5A9DA2A319E0900081510 /* createProfilePage.swift */,
 				AAA51DC42A304C0D00A7B672 /* EmailPage.swift */,
 				AA5707C32A2EFC320074F081 /* profilePage.swift */,
 				AA5707BC2A2EF3070074F081 /* genderTableViewCell.swift */,
@@ -175,12 +193,18 @@
 			files = (
 				AAA51DC72A30593700A7B672 /* registeringPage.swift in Sources */,
 				AA5707BD2A2EF3070074F081 /* genderTableViewCell.swift in Sources */,
+				AAA5A9DF2A31AD8700081510 /* familyDetailPage.swift in Sources */,
+				AAA5A9E12A31B3AA00081510 /* tabBar.swift in Sources */,
+				AAA5A9E32A31C0D600081510 /* HomePage.swift in Sources */,
 				AA59ACD92A2DB32000BE4D32 /* loginPage.swift in Sources */,
 				AAC540312A27220400604725 /* ViewController.swift in Sources */,
 				AA59ACD72A2DA5B400BE4D32 /* googlePageTableView.swift in Sources */,
+				AA1764D12A31C8EC007F40E7 /* CollectionViewCell1.swift in Sources */,
+				AAA5A9DD2A31A66500081510 /* galleryPage.swift in Sources */,
 				AAC5402D2A27220400604725 /* AppDelegate.swift in Sources */,
 				AAA51DC52A304C0D00A7B672 /* EmailPage.swift in Sources */,
 				AA5707C62A2F0BB00074F081 /* religionPage.swift in Sources */,
+				AAA5A9DB2A319E0900081510 /* createProfilePage.swift in Sources */,
 				AA97B6D42A28701E00ADAA3E /* emailpagepop.swift in Sources */,
 				AA97B6D22A286ED400ADAA3E /* mobilePage.swift in Sources */,
 				AA5707C42A2EFC320074F081 /* profilePage.swift in Sources */,
