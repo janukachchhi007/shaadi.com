@@ -24,41 +24,41 @@ class registeringPage: UIViewController {
     }
     
     @IBAction func continueButtonAction(_ sender: Any) {
-        if liveInTextFild.text == "" && cityLiveTextFild.text == "" && maritalTextFild.text == "" && dietTextFild.text == ""
-            && heightTextFild.text == ""
-            && subCommunityTextFild.text == ""
-        {
-            showalert(tital: "Enter Your State Your Live & City Your Live & Your Marital Status & Your diet & Your Height & Your Sub Community ")
-        }
-        else if cityLiveTextFild.text == ""
-        {
-            showalert(tital: "Enter Your State Your Live")
-        }
-        else if cityLiveTextFild.text == ""
-        {
-            showalert(tital: "Enter Your City Your Live ")
-        }
-        else if maritalTextFild.text == ""
-        {
-            showalert(tital: "Enter Your Your Marital Status")
-        }
-        else if dietTextFild.text == ""
-        {
-            showalert(tital: "Enter Your diet ")
-        }
-        else if heightTextFild.text == ""
-        {
-            showalert(tital: "Enter Your Height")
-        }
-        else if subCommunityTextFild.text == ""
-        {
-           showalert(tital: "Enter Your Sub Community ")
-        }
-        else
-        {
+//        if liveInTextFild.text == "" && cityLiveTextFild.text == "" && maritalTextFild.text == "" && dietTextFild.text == ""
+//            && heightTextFild.text == ""
+//            && subCommunityTextFild.text == ""
+//        {
+//            showalert(tital: "Enter Your State Your Live & City Your Live & Your Marital Status & Your diet & Your Height & Your Sub Community ")
+//        }
+//        else if cityLiveTextFild.text == ""
+//        {
+//            showalert(tital: "Enter Your State Your Live")
+//        }
+//        else if cityLiveTextFild.text == ""
+//        {
+//            showalert(tital: "Enter Your City Your Live ")
+//        }
+//        else if maritalTextFild.text == ""
+//        {
+//            showalert(tital: "Enter Your Your Marital Status")
+//        }
+//        else if dietTextFild.text == ""
+//        {
+//            showalert(tital: "Enter Your diet ")
+//        }
+//        else if heightTextFild.text == ""
+//        {
+//            showalert(tital: "Enter Your Height")
+//        }
+//        else if subCommunityTextFild.text == ""
+//        {
+//           showalert(tital: "Enter Your Sub Community ")
+//        }
+//        else
+//        {
             let naviget = storyboard?.instantiateViewController(withIdentifier: "createProfilePage") as! createProfilePage
                 navigationController?.pushViewController(naviget, animated: true)
-        }
+     //   }
     
     }
     func showalert(tital:String)

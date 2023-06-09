@@ -24,27 +24,27 @@ class religionPage: UIViewController {
     }
  
     @IBAction func continueButtonAction(_ sender: Any) {
-        if religionTextfild.text == "" && communityTextFild.text == "" && livingtextfild.text == ""
-        {
-            showalert(tital: "Enter Your Religion & Enter Your Community")
-        }
-       else if religionTextfild.text == ""
-        {
-            showalert(tital: "Enter Your Religion")
-        }
-        else if communityTextFild.text == ""
-        {
-            showalert(tital: "Enter Your Community")
-        }
-        else if livingtextfild.text == ""
-        {
-            showalert(tital: "Enter Your Living In")
-        }
-        else
-        {
+//        if religionTextfild.text == "" && communityTextFild.text == "" && livingtextfild.text == ""
+//        {
+//            showalert(tital: "Enter Your Religion & Enter Your Community")
+//        }
+//       else if religionTextfild.text == ""
+//        {
+//            showalert(tital: "Enter Your Religion")
+//        }
+//        else if communityTextFild.text == ""
+//        {
+//            showalert(tital: "Enter Your Community")
+//        }
+//        else if livingtextfild.text == ""
+//        {
+//            showalert(tital: "Enter Your Living In")
+//        }
+//        else
+//        {
             let naviget = storyboard?.instantiateViewController(withIdentifier: "EmailPage") as! EmailPage
                 navigationController?.pushViewController(naviget, animated: true)
-        }
+       // }
     }
     func showalert(tital:String)
     {

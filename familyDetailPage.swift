@@ -21,31 +21,31 @@ class familyDetailPage: UIViewController {
     }
     
     @IBAction func continueButtonAction(_ sender: Any) {
-        if motherTextFild.text == "" && fatherTextFild.text == "" && sisterTextfild.text == "" && brotherTextFild.text == ""
-        {
-            showalert(tital: "Enter Your Family Details")
-        }
-        else if motherTextFild.text == ""
-        {
-            showalert(tital: "Enter Your Mother Details")
-        }
-        else if fatherTextFild.text == ""
-        {
-            showalert(tital: "Enter Your Father Details")
-        }
-        else if sisterTextfild.text == ""
-        {
-            showalert(tital: "Enter Your Sister Details")
-        }
-        else if brotherTextFild.text == ""
-        {
-            showalert(tital: "Enter Your Brother Details")
-        }
-        else
-        {
+//        if motherTextFild.text == "" && fatherTextFild.text == "" && sisterTextfild.text == "" && brotherTextFild.text == ""
+//        {
+//            showalert(tital: "Enter Your Family Details")
+//        }
+//        else if motherTextFild.text == ""
+//        {
+//            showalert(tital: "Enter Your Mother Details")
+//        }
+//        else if fatherTextFild.text == ""
+//        {
+//            showalert(tital: "Enter Your Father Details")
+//        }
+//        else if sisterTextfild.text == ""
+//        {
+//            showalert(tital: "Enter Your Sister Details")
+//        }
+//        else if brotherTextFild.text == ""
+//        {
+//            showalert(tital: "Enter Your Brother Details")
+//        }
+//        else
+//        {
             let naviget = storyboard?.instantiateViewController(withIdentifier: "tabBar") as! tabBar
                 navigationController?.pushViewController(naviget, animated: true)
-        }
+       // }
     }
     func showalert(tital:String)
     {

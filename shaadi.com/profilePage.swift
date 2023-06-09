@@ -49,27 +49,27 @@ class profilePage: UIViewController {
     }
     
     @IBAction func continueButtonAction(_ sender: Any) {
-        if firstNameTextFild.text == "" && lastNAmeTextFild.text == "" && BirthdatetextFild.text == ""
-        {
-            showalert(tital: "Enter Your first Name &  Last Name & Date of Birth ")
-        }
-       else if firstNameTextFild.text == ""
-        {
-            showalert(tital: "Enter Your First Name")
-        }
-        else if lastNAmeTextFild.text == ""
-        {
-            showalert(tital: "Enter Your Last Name")
-        }
-        else if BirthdatetextFild.text == ""
-        {
-            showalert(tital: "Enter Your date of Birth")
-        }
-        else
-        {
+//        if firstNameTextFild.text == "" && lastNAmeTextFild.text == "" && BirthdatetextFild.text == ""
+//        {
+//            showalert(tital: "Enter Your first Name &  Last Name & Date of Birth ")
+//        }
+//       else if firstNameTextFild.text == ""
+//        {
+//            showalert(tital: "Enter Your First Name")
+//        }
+//        else if lastNAmeTextFild.text == ""
+//        {
+//            showalert(tital: "Enter Your Last Name")
+//        }
+//        else if BirthdatetextFild.text == ""
+//        {
+//            showalert(tital: "Enter Your date of Birth")
+//        }
+//        else
+//        {
             let naviget = storyboard?.instantiateViewController(withIdentifier: "religionPage") as! religionPage
                 navigationController?.pushViewController(naviget, animated: true)
-        }
+       // }
         
     }
     func showalert(tital:String)

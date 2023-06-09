@@ -22,23 +22,23 @@ class EmailPage: UIViewController {
     }
    
     @IBAction func submitButtonAction(_ sender: Any) {
-        if emailTextFild.text == "" && mobileTextFild.text?.count ?? 0 != 10
-        {
-            showalert(tital: "Enter Your Email Id & Mobile Number")
-        }
-        else if emailTextFild.text == ""
-        {
-            showalert(tital: "Enter Your Email Id")
-        }
-        else if mobileTextFild.text?.count ?? 0 != 10
-        {
-            showalert(tital: "Enter Your Mobile Number ")
-        }
-        else
-        {
+//        if emailTextFild.text == "" && mobileTextFild.text?.count ?? 0 != 10
+//        {
+//            showalert(tital: "Enter Your Email Id & Mobile Number")
+//        }
+//        else if emailTextFild.text == ""
+//        {
+//            showalert(tital: "Enter Your Email Id")
+//        }
+//        else if mobileTextFild.text?.count ?? 0 != 10
+//        {
+//            showalert(tital: "Enter Your Mobile Number ")
+//        }
+//        else
+//        {
             let naviget = storyboard?.instantiateViewController(withIdentifier: "registeringPage") as! registeringPage
                 navigationController?.pushViewController(naviget, animated: true)
-        }
+      //  }
     }
     func showalert(tital:String)
     {
