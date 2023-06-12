@@ -14,6 +14,7 @@
 		AA5707C62A2F0BB00074F081 /* religionPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5707C52A2F0BB00074F081 /* religionPage.swift */; };
 		AA59ACD72A2DA5B400BE4D32 /* googlePageTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA59ACD62A2DA5B400BE4D32 /* googlePageTableView.swift */; };
 		AA59ACD92A2DB32000BE4D32 /* loginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA59ACD82A2DB32000BE4D32 /* loginPage.swift */; };
+		AA6C0DAD2A36F887006A8552 /* TableView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6C0DAC2A36F887006A8552 /* TableView2.swift */; };
 		AA812DDC2A32E47400A7B839 /* CollectionViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA812DDB2A32E47400A7B839 /* CollectionViewCell2.swift */; };
 		AA812DDE2A32EC2400A7B839 /* ProfilePageTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA812DDD2A32EC2400A7B839 /* ProfilePageTabBar.swift */; };
 		AA812DE02A32EC4100A7B839 /* ChatPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA812DDF2A32EC4100A7B839 /* ChatPage.swift */; };
@@ -44,6 +45,7 @@
 		AA5707C52A2F0BB00074F081 /* religionPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = religionPage.swift; sourceTree = "<group>"; };
 		AA59ACD62A2DA5B400BE4D32 /* googlePageTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = googlePageTableView.swift; sourceTree = "<group>"; };
 		AA59ACD82A2DB32000BE4D32 /* loginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginPage.swift; sourceTree = "<group>"; };
+		AA6C0DAC2A36F887006A8552 /* TableView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView2.swift; sourceTree = "<group>"; };
 		AA812DDB2A32E47400A7B839 /* CollectionViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell2.swift; sourceTree = "<group>"; };
 		AA812DDD2A32EC2400A7B839 /* ProfilePageTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePageTabBar.swift; sourceTree = "<group>"; };
 		AA812DDF2A32EC4100A7B839 /* ChatPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatPage.swift; sourceTree = "<group>"; };
@@ -84,15 +86,6 @@
 		AAC540202A27220400604725 = {
 			isa = PBXGroup;
 			children = (
-				AAFB0CCE2A32FE0600CE45BE /* imageCollectionViewCell.swift */,
-				AA812DDB2A32E47400A7B839 /* CollectionViewCell2.swift */,
-				AAA5A9DE2A31AD8700081510 /* familyDetailPage.swift */,
-				AAA51DC62A30593700A7B672 /* registeringPage.swift */,
-				AA5707C52A2F0BB00074F081 /* religionPage.swift */,
-				AA59ACD82A2DB32000BE4D32 /* loginPage.swift */,
-				AA59ACD62A2DA5B400BE4D32 /* googlePageTableView.swift */,
-				AA97B6D32A28701E00ADAA3E /* emailpagepop.swift */,
-				AA97B6D12A286ED400ADAA3E /* mobilePage.swift */,
 				AAC5402B2A27220400604725 /* shaadi.com */,
 				AAC5402A2A27220400604725 /* Products */,
 			);
@@ -109,10 +102,20 @@
 		AAC5402B2A27220400604725 /* shaadi.com */ = {
 			isa = PBXGroup;
 			children = (
+				AAFB0CCE2A32FE0600CE45BE /* imageCollectionViewCell.swift */,
+				AA812DDB2A32E47400A7B839 /* CollectionViewCell2.swift */,
+				AAA5A9DE2A31AD8700081510 /* familyDetailPage.swift */,
+				AAA51DC62A30593700A7B672 /* registeringPage.swift */,
+				AA5707C52A2F0BB00074F081 /* religionPage.swift */,
+				AA59ACD82A2DB32000BE4D32 /* loginPage.swift */,
+				AA59ACD62A2DA5B400BE4D32 /* googlePageTableView.swift */,
+				AA97B6D32A28701E00ADAA3E /* emailpagepop.swift */,
+				AA97B6D12A286ED400ADAA3E /* mobilePage.swift */,
 				AAC5402C2A27220400604725 /* AppDelegate.swift */,
 				AAC5402E2A27220400604725 /* SceneDelegate.swift */,
 				AAC540302A27220400604725 /* ViewController.swift */,
 				AAC540322A27220400604725 /* Main.storyboard */,
+				AA6C0DAC2A36F887006A8552 /* TableView2.swift */,
 				AA812DE52A32EEE200A7B839 /* TableView1.swift */,
 				AA812DE12A32EC6300A7B839 /* MatchesPage.swift */,
 				AA812DDF2A32EC4100A7B839 /* ChatPage.swift */,
@@ -229,6 +232,7 @@
 				AA5707C62A2F0BB00074F081 /* religionPage.swift in Sources */,
 				AA812DE22A32EC6300A7B839 /* MatchesPage.swift in Sources */,
 				AAA5A9DB2A319E0900081510 /* createProfilePage.swift in Sources */,
+				AA6C0DAD2A36F887006A8552 /* TableView2.swift in Sources */,
 				AA97B6D42A28701E00ADAA3E /* emailpagepop.swift in Sources */,
 				AA97B6D22A286ED400ADAA3E /* mobilePage.swift in Sources */,
 				AA5707C42A2EFC320074F081 /* profilePage.swift in Sources */,
