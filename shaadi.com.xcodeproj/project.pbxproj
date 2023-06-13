@@ -15,6 +15,8 @@
 		AA59ACD72A2DA5B400BE4D32 /* googlePageTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA59ACD62A2DA5B400BE4D32 /* googlePageTableView.swift */; };
 		AA59ACD92A2DB32000BE4D32 /* loginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA59ACD82A2DB32000BE4D32 /* loginPage.swift */; };
 		AA6C0DAD2A36F887006A8552 /* TableView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6C0DAC2A36F887006A8552 /* TableView2.swift */; };
+		AA710C472A3841EC00A5058B /* TableView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA710C462A3841EC00A5058B /* TableView3.swift */; };
+		AA710C492A3843B600A5058B /* TableView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA710C482A3843B600A5058B /* TableView4.swift */; };
 		AA812DDC2A32E47400A7B839 /* CollectionViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA812DDB2A32E47400A7B839 /* CollectionViewCell2.swift */; };
 		AA812DDE2A32EC2400A7B839 /* ProfilePageTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA812DDD2A32EC2400A7B839 /* ProfilePageTabBar.swift */; };
 		AA812DE02A32EC4100A7B839 /* ChatPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA812DDF2A32EC4100A7B839 /* ChatPage.swift */; };
@@ -46,6 +48,8 @@
 		AA59ACD62A2DA5B400BE4D32 /* googlePageTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = googlePageTableView.swift; sourceTree = "<group>"; };
 		AA59ACD82A2DB32000BE4D32 /* loginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginPage.swift; sourceTree = "<group>"; };
 		AA6C0DAC2A36F887006A8552 /* TableView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView2.swift; sourceTree = "<group>"; };
+		AA710C462A3841EC00A5058B /* TableView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView3.swift; sourceTree = "<group>"; };
+		AA710C482A3843B600A5058B /* TableView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView4.swift; sourceTree = "<group>"; };
 		AA812DDB2A32E47400A7B839 /* CollectionViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell2.swift; sourceTree = "<group>"; };
 		AA812DDD2A32EC2400A7B839 /* ProfilePageTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePageTabBar.swift; sourceTree = "<group>"; };
 		AA812DDF2A32EC4100A7B839 /* ChatPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatPage.swift; sourceTree = "<group>"; };
@@ -86,6 +90,7 @@
 		AAC540202A27220400604725 = {
 			isa = PBXGroup;
 			children = (
+				AA710C482A3843B600A5058B /* TableView4.swift */,
 				AAC5402B2A27220400604725 /* shaadi.com */,
 				AAC5402A2A27220400604725 /* Products */,
 			);
@@ -115,6 +120,7 @@
 				AAC5402E2A27220400604725 /* SceneDelegate.swift */,
 				AAC540302A27220400604725 /* ViewController.swift */,
 				AAC540322A27220400604725 /* Main.storyboard */,
+				AA710C462A3841EC00A5058B /* TableView3.swift */,
 				AA6C0DAC2A36F887006A8552 /* TableView2.swift */,
 				AA812DE52A32EEE200A7B839 /* TableView1.swift */,
 				AA812DE12A32EC6300A7B839 /* MatchesPage.swift */,
@@ -217,6 +223,7 @@
 				AAFB0CCF2A32FE0600CE45BE /* imageCollectionViewCell.swift in Sources */,
 				AAA5A9DF2A31AD8700081510 /* familyDetailPage.swift in Sources */,
 				AAA5A9E12A31B3AA00081510 /* tabBar.swift in Sources */,
+				AA710C492A3843B600A5058B /* TableView4.swift in Sources */,
 				AAA5A9E32A31C0D600081510 /* HomePage.swift in Sources */,
 				AA59ACD92A2DB32000BE4D32 /* loginPage.swift in Sources */,
 				AA812DDC2A32E47400A7B839 /* CollectionViewCell2.swift in Sources */,
@@ -227,6 +234,7 @@
 				AA1764D12A31C8EC007F40E7 /* CollectionViewCell1.swift in Sources */,
 				AAA5A9DD2A31A66500081510 /* galleryPage.swift in Sources */,
 				AAC5402D2A27220400604725 /* AppDelegate.swift in Sources */,
+				AA710C472A3841EC00A5058B /* TableView3.swift in Sources */,
 				AAA51DC52A304C0D00A7B672 /* EmailPage.swift in Sources */,
 				AA812DE62A32EEE200A7B839 /* TableView1.swift in Sources */,
 				AA5707C62A2F0BB00074F081 /* religionPage.swift in Sources */,
