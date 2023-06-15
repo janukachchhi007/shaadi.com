@@ -31,6 +31,7 @@
 		AAA5A9DF2A31AD8700081510 /* familyDetailPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA5A9DE2A31AD8700081510 /* familyDetailPage.swift */; };
 		AAA5A9E12A31B3AA00081510 /* tabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA5A9E02A31B3AA00081510 /* tabBar.swift */; };
 		AAA5A9E32A31C0D600081510 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA5A9E22A31C0D600081510 /* HomePage.swift */; };
+		AAC2120C2A3AD20400D5BCCD /* TableView5.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC2120B2A3AD20400D5BCCD /* TableView5.swift */; };
 		AAC5402D2A27220400604725 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC5402C2A27220400604725 /* AppDelegate.swift */; };
 		AAC5402F2A27220400604725 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC5402E2A27220400604725 /* SceneDelegate.swift */; };
 		AAC540312A27220400604725 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC540302A27220400604725 /* ViewController.swift */; };
@@ -64,6 +65,7 @@
 		AAA5A9DE2A31AD8700081510 /* familyDetailPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = familyDetailPage.swift; sourceTree = "<group>"; };
 		AAA5A9E02A31B3AA00081510 /* tabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabBar.swift; sourceTree = "<group>"; };
 		AAA5A9E22A31C0D600081510 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		AAC2120B2A3AD20400D5BCCD /* TableView5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TableView5.swift; path = "../../../Library/Developer/Xcode/DerivedData/shaadi.com-crssahkbouoxrpbtgadkprlzkchs/SourcePackages/checkouts/DPOTPView/TableView5.swift"; sourceTree = "<group>"; };
 		AAC540292A27220400604725 /* shaadi.com.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shaadi.com.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAC5402C2A27220400604725 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAC5402E2A27220400604725 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 		AAC540202A27220400604725 = {
 			isa = PBXGroup;
 			children = (
+				AAC2120B2A3AD20400D5BCCD /* TableView5.swift */,
 				AA710C482A3843B600A5058B /* TableView4.swift */,
 				AAC5402B2A27220400604725 /* shaadi.com */,
 				AAC5402A2A27220400604725 /* Products */,
@@ -237,6 +240,7 @@
 				AA710C472A3841EC00A5058B /* TableView3.swift in Sources */,
 				AAA51DC52A304C0D00A7B672 /* EmailPage.swift in Sources */,
 				AA812DE62A32EEE200A7B839 /* TableView1.swift in Sources */,
+				AAC2120C2A3AD20400D5BCCD /* TableView5.swift in Sources */,
 				AA5707C62A2F0BB00074F081 /* religionPage.swift in Sources */,
 				AA812DE22A32EC6300A7B839 /* MatchesPage.swift in Sources */,
 				AAA5A9DB2A319E0900081510 /* createProfilePage.swift in Sources */,

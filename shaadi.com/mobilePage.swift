@@ -20,7 +20,7 @@ class mobilePage: UIViewController,UITableViewDelegate,UITableViewDataSource
     var arr2 = ["janukachchhi2@gmail.com",""]
     var photo = [UIImage(systemName: "j.circle.fill"),UIImage(systemName: "person.badge.plus.fill")]
     var mynev : UINavigationController!
-
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,7 +28,7 @@ class mobilePage: UIViewController,UITableViewDelegate,UITableViewDataSource
         googleView.layer.cornerRadius = 20
         googleView.layer.masksToBounds = true
         shaadiLogo.layer.cornerRadius = shaadiLogo.frame.width/2
-
+        
     }
     
     override func viewDidAppear(_ animated: Bool) {

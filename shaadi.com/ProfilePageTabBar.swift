@@ -8,9 +8,10 @@
 import UIKit
 
 class ProfilePageTabBar: UIViewController,UITableViewDelegate,UITableViewDataSource {
-   
     
-
+    
+    
+    @IBOutlet weak var tb5: UITableView!
     @IBOutlet weak var tb1: UITableView!
     @IBOutlet weak var tb: UITableView!
     @IBOutlet weak var tb3: UITableView!
@@ -20,12 +21,13 @@ class ProfilePageTabBar: UIViewController,UITableViewDelegate,UITableViewDataSou
     var height = ["Max 5'0 - 5'5","Max 5'5 - 6'0","Max 6'0 - 6'5","Max 6'5 - 7'0","Max 7'0 - 7'5"]
     var marital = ["Doesn't Matter","Never Married","Divorced","Widowed","Awaiting Divorce"]
     var religion = ["Hindu","Sikh","Chistian","Parsi","Other"]
+    var community = ["Patel","Patel-kadva","patel- Leva","Patel-All","Other"]
     var selectcell = -1
     
     override func viewDidLoad() {
         super.viewDidLoad()
         img.layer.cornerRadius = img.frame.width/2
-
+        
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return lebelName.count
@@ -98,7 +100,24 @@ class ProfilePageTabBar: UIViewController,UITableViewDelegate,UITableViewDataSou
             return cell4
             
         }
-    
+        else if tableView == tb5
+        {
+            let cell5 = tb5.dequeueReusableCell(withIdentifier: "cell5",for: indexPath) as! TableView5
+            
+            cell5.communityLabel.text = community[indexPath.row]
+            
+            if selectcell == indexPath.row
+            {
+                cell5.img.image = UIImage(systemName: "checkmark.circle.fill")
+            }
+            else
+            {
+                cell5.img.image = UIImage(systemName: "circle")
+            }
+            return cell5
+            
+        }
+        
         return UITableViewCell()
     }
     
@@ -122,8 +141,18 @@ class ProfilePageTabBar: UIViewController,UITableViewDelegate,UITableViewDataSou
             tb3.reloadData()
             selectcell = indexPath.row
         }
+        else if tableView == tb4
+        {
+            tb4.reloadData()
+            selectcell = indexPath.row
+        }
+        else if tableView == tb5
+        {
+            tb5.reloadData()
+            selectcell = indexPath.row
+        }
         
     }
     
-
+    
 }

@@ -38,7 +38,7 @@ class loginPage: UIViewController {
         {
             showalert(tital: "Enter Your 10 Digits Mobile Number & Enter Your 6 Digits Password ")
         }
-       else if mobileNOTextFild.text?.count ?? 0 != 10
+        else if mobileNOTextFild.text?.count ?? 0 != 10
         {
             showalert(tital: "Enter Your 10 Digits Mobile Number")
         }

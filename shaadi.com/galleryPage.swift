@@ -8,7 +8,7 @@
 import UIKit
 
 class galleryPage: UIViewController,UIImagePickerControllerDelegate,UINavigationControllerDelegate {
-
+    
     @IBOutlet weak var addButton: UIButton!
     @IBOutlet weak var profileImg: UIImageView!
     @IBOutlet weak var continueButton: UIButton!
@@ -16,11 +16,11 @@ class galleryPage: UIViewController,UIImagePickerControllerDelegate,UINavigation
     override func viewDidLoad() {
         super.viewDidLoad()
         profileImg.layer.cornerRadius = profileImg.frame.size.height/2
-         addButton .layer.cornerRadius = 18
+        addButton .layer.cornerRadius = 18
         addButton.layer.masksToBounds = true
         continueButton.layer.cornerRadius = 18
         continueButton.layer.masksToBounds = true
-
+        
     }
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
@@ -44,7 +44,7 @@ class galleryPage: UIViewController,UIImagePickerControllerDelegate,UINavigation
     
     @IBAction func continueButtonAction(_ sender: Any) {
         let navigate = storyboard?.instantiateViewController(withIdentifier: "familyDetailPage") as! familyDetailPage
-            navigationController?.pushViewController(navigate, animated: true)
+        navigationController?.pushViewController(navigate, animated: true)
     }
     
     

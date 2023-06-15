@@ -51,14 +51,14 @@ class ViewController: UIViewController {
         let n = storyboard? .instantiateViewController(withIdentifier: "mobilePage") as! mobilePage
         n.mynev = self.navigationController
         present(n, animated: false)
-       
+        
     }
     
     
     @IBAction func loginButtonAction(_ sender: Any) {
         let n = storyboard?.instantiateViewController(identifier: "loginPage")as! loginPage
         navigationController?.pushViewController(n, animated: true)
-
+        
     }
     
 }

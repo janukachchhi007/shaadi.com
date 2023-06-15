@@ -8,7 +8,7 @@
 import UIKit
 
 class createProfilePage: UIViewController {
-
+    
     @IBOutlet weak var createProfileButton: UIButton!
     @IBOutlet weak var qualificationTextFild: UITextField!
     @IBOutlet weak var workWithTextfild: UITextField!
@@ -24,40 +24,40 @@ class createProfilePage: UIViewController {
     }
     
     @IBAction func createProfileButtonAction(_ sender: Any) {
-//
-//        if qualificationTextFild.text == "" && collegeaatenedTextFild.text == "" && workWithTextfild.text == ""  && workAsTextFild.text == "" && annualIncomeTextFild.text == ""
-//        {
-//            showalert(tital: "Enter Your Highest Qualification & Work With & Work As & Annual income")
-//        }
-//        else if collegeaatenedTextFild.text == ""
-//        {
-//            showalert(tital: "Enter Your Collage Atended")
-//        }
-//        else if qualificationTextFild.text == ""
-//        {
-//            showalert(tital: "Enter Your Highest Qualification")
-//        }
-//        else if workWithTextfild.text == ""
-//        {
-//            showalert(tital: "Enter Your  Work With")
-//        }
-//        else if workAsTextFild.text == ""
-//        {
-//            showalert(tital: "Enter Your Work As ")
-//        }
-//        else if currentCompanyTextFild.text == ""
-//        {
-//            showalert(tital: "Enter Your Current Company Name")
-//        }
-//        else if annualIncomeTextFild.text == ""
-//        {
-//            showalert(tital: "Enter Your Annual income")
-//        }
-//        else
-//        {
-            let naviget = storyboard?.instantiateViewController(withIdentifier: "galleryPage") as! galleryPage
-                navigationController?.pushViewController(naviget, animated: true)
-       // }
+        //
+        //        if qualificationTextFild.text == "" && collegeaatenedTextFild.text == "" && workWithTextfild.text == ""  && workAsTextFild.text == "" && annualIncomeTextFild.text == ""
+        //        {
+        //            showalert(tital: "Enter Your Highest Qualification & Work With & Work As & Annual income")
+        //        }
+        //        else if collegeaatenedTextFild.text == ""
+        //        {
+        //            showalert(tital: "Enter Your Collage Atended")
+        //        }
+        //        else if qualificationTextFild.text == ""
+        //        {
+        //            showalert(tital: "Enter Your Highest Qualification")
+        //        }
+        //        else if workWithTextfild.text == ""
+        //        {
+        //            showalert(tital: "Enter Your  Work With")
+        //        }
+        //        else if workAsTextFild.text == ""
+        //        {
+        //            showalert(tital: "Enter Your Work As ")
+        //        }
+        //        else if currentCompanyTextFild.text == ""
+        //        {
+        //            showalert(tital: "Enter Your Current Company Name")
+        //        }
+        //        else if annualIncomeTextFild.text == ""
+        //        {
+        //            showalert(tital: "Enter Your Annual income")
+        //        }
+        //        else
+        //        {
+        let naviget = storyboard?.instantiateViewController(withIdentifier: "galleryPage") as! galleryPage
+        navigationController?.pushViewController(naviget, animated: true)
+        // }
     }
     func showalert(tital:String)
     {
