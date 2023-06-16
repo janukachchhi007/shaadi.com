@@ -16,7 +16,7 @@ class ChatPage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSo
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+          
     }
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return photo.count

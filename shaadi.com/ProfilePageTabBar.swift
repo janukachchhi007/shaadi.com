@@ -11,6 +11,8 @@ class ProfilePageTabBar: UIViewController,UITableViewDelegate,UITableViewDataSou
     
     
     
+    @IBOutlet weak var tb7: UITableView!
+    @IBOutlet weak var tb6: UITableView!
     @IBOutlet weak var tb5: UITableView!
     @IBOutlet weak var tb1: UITableView!
     @IBOutlet weak var tb: UITableView!
@@ -22,6 +24,8 @@ class ProfilePageTabBar: UIViewController,UITableViewDelegate,UITableViewDataSou
     var marital = ["Doesn't Matter","Never Married","Divorced","Widowed","Awaiting Divorce"]
     var religion = ["Hindu","Sikh","Chistian","Parsi","Other"]
     var community = ["Patel","Patel-kadva","patel- Leva","Patel-All","Other"]
+    var country = ["India","Austrelia","Caneda","US","Other"]
+    var state = ["Gujarat","Maharastra","Rajasthan","Madhaypardes","Other"]
     var selectcell = -1
     
     override func viewDidLoad() {
@@ -48,7 +52,7 @@ class ProfilePageTabBar: UIViewController,UITableViewDelegate,UITableViewDataSou
                 cell.redioButton.image = UIImage(systemName: "circle")
             }
             return cell
-            
+
         }
         else if tableView == tb1
         {
@@ -115,6 +119,40 @@ class ProfilePageTabBar: UIViewController,UITableViewDelegate,UITableViewDataSou
                 cell5.img.image = UIImage(systemName: "circle")
             }
             return cell5
+            
+        }
+        else if tableView == tb6
+        {
+            let cell6 = tb6.dequeueReusableCell(withIdentifier: "cell6",for: indexPath) as! TableView6
+            
+            cell6.countryName.text = country[indexPath.row]
+            
+            if selectcell == indexPath.row
+            {
+                cell6.imgTik.image = UIImage(systemName: "checkmark.circle.fill")
+            }
+            else
+            {
+                cell6.imgTik.image = UIImage(systemName: "circle")
+            }
+            return cell6
+            
+        }
+        else if tableView == tb7
+        {
+            let cell7 = tb7.dequeueReusableCell(withIdentifier: "cell7",for: indexPath) as! TableView7
+            
+            cell7.stateName.text = state[indexPath.row]
+            
+            if selectcell == indexPath.row
+            {
+                cell7.imgTik.image = UIImage(systemName: "checkmark.circle.fill")
+            }
+            else
+            {
+                cell7.imgTik.image = UIImage(systemName: "circle")
+            }
+            return cell7
             
         }
         

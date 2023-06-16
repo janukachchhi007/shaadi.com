@@ -31,6 +31,8 @@
 		AAA5A9DF2A31AD8700081510 /* familyDetailPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA5A9DE2A31AD8700081510 /* familyDetailPage.swift */; };
 		AAA5A9E12A31B3AA00081510 /* tabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA5A9E02A31B3AA00081510 /* tabBar.swift */; };
 		AAA5A9E32A31C0D600081510 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA5A9E22A31C0D600081510 /* HomePage.swift */; };
+		AAB1ACD82A3C0C3F00E2CF18 /* TableView6.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB1ACD72A3C0C3F00E2CF18 /* TableView6.swift */; };
+		AAB1ACDA2A3C0F7900E2CF18 /* TableView7.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB1ACD92A3C0F7900E2CF18 /* TableView7.swift */; };
 		AAC2120C2A3AD20400D5BCCD /* TableView5.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC2120B2A3AD20400D5BCCD /* TableView5.swift */; };
 		AAC5402D2A27220400604725 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC5402C2A27220400604725 /* AppDelegate.swift */; };
 		AAC5402F2A27220400604725 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC5402E2A27220400604725 /* SceneDelegate.swift */; };
@@ -65,6 +67,8 @@
 		AAA5A9DE2A31AD8700081510 /* familyDetailPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = familyDetailPage.swift; sourceTree = "<group>"; };
 		AAA5A9E02A31B3AA00081510 /* tabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabBar.swift; sourceTree = "<group>"; };
 		AAA5A9E22A31C0D600081510 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		AAB1ACD72A3C0C3F00E2CF18 /* TableView6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView6.swift; sourceTree = "<group>"; };
+		AAB1ACD92A3C0F7900E2CF18 /* TableView7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView7.swift; sourceTree = "<group>"; };
 		AAC2120B2A3AD20400D5BCCD /* TableView5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TableView5.swift; path = "../../../Library/Developer/Xcode/DerivedData/shaadi.com-crssahkbouoxrpbtgadkprlzkchs/SourcePackages/checkouts/DPOTPView/TableView5.swift"; sourceTree = "<group>"; };
 		AAC540292A27220400604725 /* shaadi.com.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shaadi.com.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAC5402C2A27220400604725 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -92,6 +96,7 @@
 		AAC540202A27220400604725 = {
 			isa = PBXGroup;
 			children = (
+				AAB1ACD92A3C0F7900E2CF18 /* TableView7.swift */,
 				AAC2120B2A3AD20400D5BCCD /* TableView5.swift */,
 				AA710C482A3843B600A5058B /* TableView4.swift */,
 				AAC5402B2A27220400604725 /* shaadi.com */,
@@ -123,6 +128,7 @@
 				AAC5402E2A27220400604725 /* SceneDelegate.swift */,
 				AAC540302A27220400604725 /* ViewController.swift */,
 				AAC540322A27220400604725 /* Main.storyboard */,
+				AAB1ACD72A3C0C3F00E2CF18 /* TableView6.swift */,
 				AA710C462A3841EC00A5058B /* TableView3.swift */,
 				AA6C0DAC2A36F887006A8552 /* TableView2.swift */,
 				AA812DE52A32EEE200A7B839 /* TableView1.swift */,
@@ -226,6 +232,7 @@
 				AAFB0CCF2A32FE0600CE45BE /* imageCollectionViewCell.swift in Sources */,
 				AAA5A9DF2A31AD8700081510 /* familyDetailPage.swift in Sources */,
 				AAA5A9E12A31B3AA00081510 /* tabBar.swift in Sources */,
+				AAB1ACDA2A3C0F7900E2CF18 /* TableView7.swift in Sources */,
 				AA710C492A3843B600A5058B /* TableView4.swift in Sources */,
 				AAA5A9E32A31C0D600081510 /* HomePage.swift in Sources */,
 				AA59ACD92A2DB32000BE4D32 /* loginPage.swift in Sources */,
@@ -243,6 +250,7 @@
 				AAC2120C2A3AD20400D5BCCD /* TableView5.swift in Sources */,
 				AA5707C62A2F0BB00074F081 /* religionPage.swift in Sources */,
 				AA812DE22A32EC6300A7B839 /* MatchesPage.swift in Sources */,
+				AAB1ACD82A3C0C3F00E2CF18 /* TableView6.swift in Sources */,
 				AAA5A9DB2A319E0900081510 /* createProfilePage.swift in Sources */,
 				AA6C0DAD2A36F887006A8552 /* TableView2.swift in Sources */,
 				AA97B6D42A28701E00ADAA3E /* emailpagepop.swift in Sources */,
