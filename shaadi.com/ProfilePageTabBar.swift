@@ -30,6 +30,7 @@ class ProfilePageTabBar: UIViewController,UITableViewDelegate,UITableViewDataSou
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        navigationItem.hidesBackButton = true
         img.layer.cornerRadius = img.frame.width/2
         
     }
@@ -52,7 +53,7 @@ class ProfilePageTabBar: UIViewController,UITableViewDelegate,UITableViewDataSou
                 cell.redioButton.image = UIImage(systemName: "circle")
             }
             return cell
-
+            
         }
         else if tableView == tb1
         {

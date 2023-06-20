@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AA1764D12A31C8EC007F40E7 /* CollectionViewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1764D02A31C8EC007F40E7 /* CollectionViewCell1.swift */; };
+		AA4147F72A4174B2003ED536 /* MatchCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4147F62A4174B2003ED536 /* MatchCollectionView.swift */; };
 		AA5707BD2A2EF3070074F081 /* genderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5707BC2A2EF3070074F081 /* genderTableViewCell.swift */; };
 		AA5707C22A2EFA9B0074F081 /* DPOTPView in Frameworks */ = {isa = PBXBuildFile; productRef = AA5707C12A2EFA9B0074F081 /* DPOTPView */; };
 		AA5707C42A2EFC320074F081 /* profilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5707C32A2EFC320074F081 /* profilePage.swift */; };
@@ -47,6 +48,7 @@
 
 /* Begin PBXFileReference section */
 		AA1764D02A31C8EC007F40E7 /* CollectionViewCell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell1.swift; sourceTree = "<group>"; };
+		AA4147F62A4174B2003ED536 /* MatchCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchCollectionView.swift; sourceTree = "<group>"; };
 		AA5707BC2A2EF3070074F081 /* genderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = genderTableViewCell.swift; sourceTree = "<group>"; };
 		AA5707C32A2EFC320074F081 /* profilePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profilePage.swift; sourceTree = "<group>"; };
 		AA5707C52A2F0BB00074F081 /* religionPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = religionPage.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 		AAC540202A27220400604725 = {
 			isa = PBXGroup;
 			children = (
+				AA4147F62A4174B2003ED536 /* MatchCollectionView.swift */,
 				AA6E69A52A41622000088BA5 /* chatnNaviagtePage.swift */,
 				AA6E69A32A415B8200088BA5 /* ChatTableView.swift */,
 				AAB1ACD92A3C0F7900E2CF18 /* TableView7.swift */,
@@ -239,6 +242,7 @@
 				AAA5A9DF2A31AD8700081510 /* familyDetailPage.swift in Sources */,
 				AAA5A9E12A31B3AA00081510 /* tabBar.swift in Sources */,
 				AAB1ACDA2A3C0F7900E2CF18 /* TableView7.swift in Sources */,
+				AA4147F72A4174B2003ED536 /* MatchCollectionView.swift in Sources */,
 				AA710C492A3843B600A5058B /* TableView4.swift in Sources */,
 				AA6E69A42A415B8200088BA5 /* ChatTableView.swift in Sources */,
 				AAA5A9E32A31C0D600081510 /* HomePage.swift in Sources */,

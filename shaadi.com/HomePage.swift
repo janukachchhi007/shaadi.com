@@ -15,6 +15,7 @@ class HomePage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSo
     var lastName = ["Verify your profile with ID","Verify yyour mobile number"]
     override func viewDidLoad() {
         super.viewDidLoad()
+        navigationItem.hidesBackButton = true
 
     }
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
