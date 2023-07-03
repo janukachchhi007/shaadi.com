@@ -25,6 +25,8 @@
 		AA812DE02A32EC4100A7B839 /* ChatPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA812DDF2A32EC4100A7B839 /* ChatPage.swift */; };
 		AA812DE22A32EC6300A7B839 /* MatchesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA812DE12A32EC6300A7B839 /* MatchesPage.swift */; };
 		AA812DE62A32EEE200A7B839 /* TableView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA812DE52A32EEE200A7B839 /* TableView1.swift */; };
+		AA84D8A32A52979E007D0EFD /* TableView5.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA84D8A22A52979E007D0EFD /* TableView5.swift */; };
+		AA84D8AB2A529C80007D0EFD /* CollectionView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA84D8AA2A529C80007D0EFD /* CollectionView2.swift */; };
 		AA97B6D22A286ED400ADAA3E /* mobilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA97B6D12A286ED400ADAA3E /* mobilePage.swift */; };
 		AA97B6D42A28701E00ADAA3E /* emailpagepop.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA97B6D32A28701E00ADAA3E /* emailpagepop.swift */; };
 		AAA51DC52A304C0D00A7B672 /* EmailPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA51DC42A304C0D00A7B672 /* EmailPage.swift */; };
@@ -36,7 +38,6 @@
 		AAA5A9E32A31C0D600081510 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA5A9E22A31C0D600081510 /* HomePage.swift */; };
 		AAB1ACD82A3C0C3F00E2CF18 /* TableView6.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB1ACD72A3C0C3F00E2CF18 /* TableView6.swift */; };
 		AAB1ACDA2A3C0F7900E2CF18 /* TableView7.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB1ACD92A3C0F7900E2CF18 /* TableView7.swift */; };
-		AAC2120C2A3AD20400D5BCCD /* TableView5.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC2120B2A3AD20400D5BCCD /* TableView5.swift */; };
 		AAC5402D2A27220400604725 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC5402C2A27220400604725 /* AppDelegate.swift */; };
 		AAC5402F2A27220400604725 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC5402E2A27220400604725 /* SceneDelegate.swift */; };
 		AAC540312A27220400604725 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC540302A27220400604725 /* ViewController.swift */; };
@@ -64,6 +65,8 @@
 		AA812DDF2A32EC4100A7B839 /* ChatPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatPage.swift; sourceTree = "<group>"; };
 		AA812DE12A32EC6300A7B839 /* MatchesPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesPage.swift; sourceTree = "<group>"; };
 		AA812DE52A32EEE200A7B839 /* TableView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView1.swift; sourceTree = "<group>"; };
+		AA84D8A22A52979E007D0EFD /* TableView5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView5.swift; sourceTree = "<group>"; };
+		AA84D8AA2A529C80007D0EFD /* CollectionView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView2.swift; sourceTree = "<group>"; };
 		AA97B6D12A286ED400ADAA3E /* mobilePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobilePage.swift; sourceTree = "<group>"; };
 		AA97B6D32A28701E00ADAA3E /* emailpagepop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emailpagepop.swift; sourceTree = "<group>"; };
 		AAA51DC42A304C0D00A7B672 /* EmailPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailPage.swift; sourceTree = "<group>"; };
@@ -75,7 +78,6 @@
 		AAA5A9E22A31C0D600081510 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 		AAB1ACD72A3C0C3F00E2CF18 /* TableView6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView6.swift; sourceTree = "<group>"; };
 		AAB1ACD92A3C0F7900E2CF18 /* TableView7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView7.swift; sourceTree = "<group>"; };
-		AAC2120B2A3AD20400D5BCCD /* TableView5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TableView5.swift; path = "../../../Library/Developer/Xcode/DerivedData/shaadi.com-crssahkbouoxrpbtgadkprlzkchs/SourcePackages/checkouts/DPOTPView/TableView5.swift"; sourceTree = "<group>"; };
 		AAC540292A27220400604725 /* shaadi.com.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shaadi.com.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAC5402C2A27220400604725 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAC5402E2A27220400604725 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,12 +104,6 @@
 		AAC540202A27220400604725 = {
 			isa = PBXGroup;
 			children = (
-				AA4147F62A4174B2003ED536 /* MatchCollectionView.swift */,
-				AA6E69A52A41622000088BA5 /* chatnNaviagtePage.swift */,
-				AA6E69A32A415B8200088BA5 /* ChatTableView.swift */,
-				AAB1ACD92A3C0F7900E2CF18 /* TableView7.swift */,
-				AAC2120B2A3AD20400D5BCCD /* TableView5.swift */,
-				AA710C482A3843B600A5058B /* TableView4.swift */,
 				AAC5402B2A27220400604725 /* shaadi.com */,
 				AAC5402A2A27220400604725 /* Products */,
 			);
@@ -131,13 +127,21 @@
 				AA5707C52A2F0BB00074F081 /* religionPage.swift */,
 				AA59ACD82A2DB32000BE4D32 /* loginPage.swift */,
 				AA59ACD62A2DA5B400BE4D32 /* googlePageTableView.swift */,
-				AA97B6D32A28701E00ADAA3E /* emailpagepop.swift */,
+				AA710C482A3843B600A5058B /* TableView4.swift */,
 				AA97B6D12A286ED400ADAA3E /* mobilePage.swift */,
+				AAB1ACD92A3C0F7900E2CF18 /* TableView7.swift */,
+				AA6E69A32A415B8200088BA5 /* ChatTableView.swift */,
+				AA84D8A22A52979E007D0EFD /* TableView5.swift */,
+				AA6E69A52A41622000088BA5 /* chatnNaviagtePage.swift */,
+				AA4147F62A4174B2003ED536 /* MatchCollectionView.swift */,
 				AAC5402C2A27220400604725 /* AppDelegate.swift */,
 				AAC5402E2A27220400604725 /* SceneDelegate.swift */,
 				AAC540302A27220400604725 /* ViewController.swift */,
 				AAC540322A27220400604725 /* Main.storyboard */,
+				AA84D8AA2A529C80007D0EFD /* CollectionView2.swift */,
+				AA5707BC2A2EF3070074F081 /* genderTableViewCell.swift */,
 				AAB1ACD72A3C0C3F00E2CF18 /* TableView6.swift */,
+				AA97B6D32A28701E00ADAA3E /* emailpagepop.swift */,
 				AA710C462A3841EC00A5058B /* TableView3.swift */,
 				AA6C0DAC2A36F887006A8552 /* TableView2.swift */,
 				AA812DE52A32EEE200A7B839 /* TableView1.swift */,
@@ -151,7 +155,6 @@
 				AAA5A9DA2A319E0900081510 /* createProfilePage.swift */,
 				AAA51DC42A304C0D00A7B672 /* EmailPage.swift */,
 				AA5707C32A2EFC320074F081 /* profilePage.swift */,
-				AA5707BC2A2EF3070074F081 /* genderTableViewCell.swift */,
 				AAC540352A27220500604725 /* Assets.xcassets */,
 				AAC540372A27220500604725 /* LaunchScreen.storyboard */,
 				AAC5403A2A27220500604725 /* Info.plist */,
@@ -247,6 +250,7 @@
 				AA6E69A42A415B8200088BA5 /* ChatTableView.swift in Sources */,
 				AAA5A9E32A31C0D600081510 /* HomePage.swift in Sources */,
 				AA59ACD92A2DB32000BE4D32 /* loginPage.swift in Sources */,
+				AA84D8AB2A529C80007D0EFD /* CollectionView2.swift in Sources */,
 				AA812DDC2A32E47400A7B839 /* CollectionViewCell2.swift in Sources */,
 				AAC540312A27220400604725 /* ViewController.swift in Sources */,
 				AA6E69A62A41622000088BA5 /* chatnNaviagtePage.swift in Sources */,
@@ -259,10 +263,10 @@
 				AA710C472A3841EC00A5058B /* TableView3.swift in Sources */,
 				AAA51DC52A304C0D00A7B672 /* EmailPage.swift in Sources */,
 				AA812DE62A32EEE200A7B839 /* TableView1.swift in Sources */,
-				AAC2120C2A3AD20400D5BCCD /* TableView5.swift in Sources */,
 				AA5707C62A2F0BB00074F081 /* religionPage.swift in Sources */,
 				AA812DE22A32EC6300A7B839 /* MatchesPage.swift in Sources */,
 				AAB1ACD82A3C0C3F00E2CF18 /* TableView6.swift in Sources */,
+				AA84D8A32A52979E007D0EFD /* TableView5.swift in Sources */,
 				AAA5A9DB2A319E0900081510 /* createProfilePage.swift in Sources */,
 				AA6C0DAD2A36F887006A8552 /* TableView2.swift in Sources */,
 				AA97B6D42A28701E00ADAA3E /* emailpagepop.swift in Sources */,
