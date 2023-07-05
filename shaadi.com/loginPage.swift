@@ -25,13 +25,7 @@ class loginPage: UIViewController {
         
     }
     
-    @IBAction func loginWithOTPButtonAction(_ sender: Any) {
-        
-    }
     
-    @IBAction func forgetPWButtonAction(_ sender: Any) {
-        
-    }
     
     @IBAction func LoginBUttonAction(_ sender: Any) {
         if mobileNOTextFild.text?.count ?? 0 != 10 && passwordTextFild.text?.count ?? 0 != 6
@@ -48,7 +42,8 @@ class loginPage: UIViewController {
         }
         else
         {
-            
+            let naviget = storyboard?.instantiateViewController(withIdentifier: "profilePage") as! profilePage
+                navigationController?.pushViewController(naviget, animated: true)
         }
         
     }
